@@ -1,0 +1,188 @@
+.logo1 {
+    height: 110px;
+    width: 15%;
+    margin-left: 50px;
+    border-radius: 5 0%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+ h3 .b1{
+    width: 250px;
+    height: 150px;
+    background:#333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #333;
+    padding: 15px;
+
+}
+ body :hover{
+    background-color: #b89a5f32;
+ }
+ header :hover{
+    background-color: #b30000;
+ }
+ main :hover{
+    background-color: #ffffff4f;
+ }
+ section :hover{
+    background-color: #b89a5f32;
+ }
+ div :hover{
+    background-color: #3d3737;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+ }
+ footer :hover{
+    background-color: #333333;
+ }
+ *{color: #000000;}
+ ul li :hover{
+    color: #fff;
+    background-color: #b30000;
+    text-decoration: underline;
+ }
+ img :hover{
+    transform: scale(1.03);
+    filter: brightness(1.1);
+    transition: 0.3s ease;
+ }
+ iframe :hover{
+    border: 3px solid #b30000;
+ }
+.doou .b1{ width: 250px;
+    height: 20px;
+    background:#333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #333;
+    text-align: center;
+    position:static ;
+
+}
+
+iframe{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+    border: #a30808;
+}
+
+p img{ width: 20%; /* Les images occupent toute la largeur de leur conteneur */
+    max-width: 500px; /* Largeur maximale des images */
+    width: 20;
+    height: auto; /* Ajuste automatiquement la hauteur */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Ombre subtile */
+    transition: transform 0.3s, box-shadow 0.3s;}
+
+ div img{
+    width: 100%; /* Les images occupent toute la largeur de leur conteneur */
+    max-width: 500px; /* Largeur maximale des images */
+    width: 20;
+    height: auto; /* Ajuste automatiquement la hauteur */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Ombre subtile */
+    transition: transform 0.3s, box-shadow 0.3s; /* Effet de hover */
+}
+strong {
+    color: black; /* Bleu vif */
+}
+section {
+    padding: 30px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projets{       
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.projets{
+    padding: 50px, 0;
+    background-color: #f4f4f4;
+}
+
+.projet{
+    background:white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0, 0, 10px rgba(0 , 0, 0, 0.1);
+    text-align: center;
+}
+.projet img{
+    width: 100%;
+    height: auto;
+    border-radius:5px ;
+}
+
+body{
+    background-image: url(image/fonplan.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+h1, h2, h3 {
+    color: black; /* Bleu foncé */
+    margin-bottom: 10px;
+    text-align: center;
+    transition: color 0.3s; /* Transition pour le hover */
+      }
+
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #a30808;
+        padding: 10px 0;
+        border-radius: 8px;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    
+    nav ul li a:hover {
+        color: #f4a261;
+    }
+
+
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    footer p {
+        font-size: 14px;
+    }
+
+    a:hover {
+        color: #1e3a8a;
+        text-decoration: underline;
+        transform: scale(1.05); /* Légère mise en avant au survol */
+    }
